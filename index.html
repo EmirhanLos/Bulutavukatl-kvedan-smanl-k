@@ -415,7 +415,7 @@
                         </div>
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                            <a href="tel:+905347834625"
+                            <a href="tel:+905347834625" data-copy-phone="+90 534 783 46 25"
                                class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg border border-obsidian-900/20 text-obsidian-900 hover:bg-obsidian-900 hover:text-ivory-50 text-xs font-medium transition">
                                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
@@ -495,7 +495,7 @@
                         </div>
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                            <a href="tel:+905384541810"
+                            <a href="tel:+905384541810" data-copy-phone="+90 538 454 18 10"
                                class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg border border-obsidian-900/20 text-obsidian-900 hover:bg-obsidian-900 hover:text-ivory-50 text-xs font-medium transition">
                                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
@@ -587,7 +587,7 @@
                         </a>
                     </div>
                     <div class="flex items-center gap-2.5 shrink-0">
-                        <a href="tel:+905347834625" aria-label="Av. Nisa Yaren Bulut Ara"
+                        <a href="tel:+905347834625" data-copy-phone="+90 534 783 46 25" aria-label="Av. Nisa Yaren Bulut Ara"
                            class="w-11 h-11 rounded-xl bg-obsidian-950 border border-champagne-500/35 text-champagne-300 hover:bg-champagne-500 hover:text-obsidian-950 flex items-center justify-center transition">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
@@ -615,7 +615,7 @@
                         </a>
                     </div>
                     <div class="flex items-center gap-2.5 shrink-0">
-                        <a href="tel:+905384541810" aria-label="Av. Buğra Efe Bulut Ara"
+                        <a href="tel:+905384541810" data-copy-phone="+90 538 454 18 10" aria-label="Av. Buğra Efe Bulut Ara"
                            class="w-11 h-11 rounded-xl bg-obsidian-950 border border-champagne-500/35 text-champagne-300 hover:bg-champagne-500 hover:text-obsidian-950 flex items-center justify-center transition">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
@@ -701,6 +701,7 @@
                                         Telefon Numarası *
                                     </label>
                                     <input type="tel" id="client-phone" name="clientPhone" required placeholder="0 (5XX) XXX XX XX"
+                                           inputmode="numeric" autocomplete="tel" maxlength="17" pattern="0 \(5\d{2}\) \d{3} \d{2} \d{2}" title="0 (5XX) XXX XX XX biçiminde girin"
                                            class="w-full px-4 py-3 rounded-xl bg-white border border-stone-300 text-obsidian-900 placeholder-stone-400 text-sm focus:outline-none focus:border-obsidian-900 transition">
                                 </div>
 
@@ -803,6 +804,9 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                                 </svg>
                             </button>
+
+                            <!-- WhatsApp ile İlet (seçilen avukata göre JS ile doldurulur) -->
+                            <div id="wa-actions" class="space-y-2.5"></div>
                         </form>
 
                         <!-- ONAY KARTI (Form Gönderildikten Sonra Açılır) -->
@@ -857,11 +861,6 @@
                                         <dd id="sum-topic" class="text-obsidian-800 mt-1 bg-white p-3 rounded-lg border border-champagne-500/20 text-xs leading-relaxed">-</dd>
                                     </div>
                                 </dl>
-
-                                <!-- Doğrudan Mailto ve WhatsApp İletim Butonları -->
-                                <div id="confirmation-actions-container" class="pt-4 border-t border-champagne-500/25 space-y-3">
-                                    <!-- JS ile mailto ve WhatsApp butonları doldurulacak -->
-                                </div>
                             </div>
 
                             <div class="flex items-center justify-between">
@@ -960,7 +959,7 @@
         <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-16">
             <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-obsidian-800">
                 <!-- Marka & Adres -->
-                <div class="md:col-span-5 space-y-4">
+                <div class="md:col-span-7 space-y-4">
                     <div class="flex items-center gap-3">
                         <div class="w-9 h-9">
                             <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
@@ -983,7 +982,7 @@
                 </div>
 
                 <!-- Hızlı Bağlantılar -->
-                <div class="md:col-span-3 space-y-3">
+                <div class="md:col-span-5 space-y-3">
                     <h4 class="font-serif text-lg text-ivory-50 font-semibold">Kurumsal</h4>
                     <ul class="space-y-2 text-xs">
                         <li><a href="#hakkimizda" class="hover:text-champagne-300 transition">Hakkımızda</a></li>
@@ -991,14 +990,6 @@
                         <li><a href="#calisma-alanlari" class="hover:text-champagne-300 transition">Çalışma Alanları</a></li>
                         <li><a href="#gorusme-talebi" class="hover:text-champagne-300 transition">Görüşme Talebi</a></li>
                     </ul>
-                </div>
-
-                <!-- Yasal Bilgilendirme -->
-                <div class="md:col-span-4 space-y-3">
-                    <h4 class="font-serif text-lg text-ivory-50 font-semibold">Yasal Bilgilendirme</h4>
-                    <p class="text-[11px] leading-relaxed text-ivory-200/55">
-                        Bu internet sitesinde yer alan tüm bilgi ve açıklamalar, Türkiye Barolar Birliği Meslek Kuralları ve Reklam Yasağı Yönetmeliği uyarınca yalnızca bilgilendirme amacıyla hazırlanmış olup iş temini veya reklam amacı taşımamaktadır.
-                    </p>
                 </div>
             </div>
 
@@ -1361,7 +1352,13 @@
             const clientTopic = document.getElementById('client-topic').value.trim();
 
             const formattedDate = rawDate ? rawDate.split('-').reverse().join('.') : rawDate;
-            const targetEmail = 'karahanemirhan86@gmail.com';
+            // Avukata göre alıcı e-posta adresi (şimdilik ikisi de aynı adres; ileride burada güncellenecek)
+            const lawyerEmails = {
+                'Av. Nisa Yaren Bulut': 'karahanemirhan86@gmail.com',
+                'Av. Buğra Efe Bulut': 'karahanemirhan86@gmail.com'
+            };
+            const defaultLawyerEmail = 'karahanemirhan86@gmail.com';
+            const targetEmail = lawyerEmails[selectedLawyer] || defaultLawyerEmail;
             const lawyerInfoLine = `İlgili Avukat: ${selectedLawyer}`;
             const emailSubject = `Bulut Hukuk Görüşme Talebi | ${lawyerInfoLine} - ${clientName}`;
 
@@ -1395,7 +1392,9 @@
                     },
                     body: JSON.stringify(payload)
                 });
-                if (response.ok) {
+                let data = null;
+                try { data = await response.json(); } catch (e) { data = null; }
+                if (response.ok && data && (data.success === true || data.success === 'true')) {
                     ajaxSuccess = true;
                 }
             } catch (err) {
@@ -1414,86 +1413,15 @@
             document.getElementById('sum-datetime').textContent = `${formattedDate} — Saat ${selectedTime}`;
             document.getElementById('sum-topic').textContent = clientTopic;
 
+            if (!ajaxSuccess) {
+                showToast('E-posta gönderilemedi. Lütfen tekrar deneyin veya WhatsApp ile iletin.');
+                return;
+            }
+
             const badgeEl = document.getElementById('email-delivery-badge');
             const noteEl = document.getElementById('email-confirmation-note');
-
-            if (ajaxSuccess) {
-                badgeEl.textContent = 'E-Posta İletimi Tamamlandı';
-                noteEl.innerHTML = `Görüşme talebiniz <strong>${selectedLawyer}</strong> adına <strong>${targetEmail}</strong> adresine e-posta olarak başarıyla iletildi.`;
-            } else {
-                badgeEl.textContent = 'Görüşme Talebi Hazırlandı';
-                noteEl.innerHTML = `Talebiniz <strong>${selectedLawyer}</strong> adına <strong>${targetEmail}</strong> adresi için derlendi. Aşağıdaki tek tıkla e-posta veya WhatsApp butonları üzerinden doğrudan gönderim sağlayabilirsiniz.`;
-            }
-
-            // Hazır Mailto Bağlantısı
-            const mailBody = encodeURIComponent(
-                `Bulut Hukuk & Danışmanlık — Yeni Görüşme Talebi\n\n` +
-                `${lawyerInfoLine}\n` +
-                `Danışan Adı Soyadı: ${clientName}\n` +
-                `Telefon Numarası: ${clientPhone}\n` +
-                `E-Posta Adresi: ${clientEmail}\n` +
-                `Görüşme Türü: ${meetingType}\n` +
-                `Hukuk Alanı: ${legalArea}\n` +
-                `Tercih Edilen Tarih & Saat: ${formattedDate} - ${selectedTime}\n` +
-                `Kısa Dava / Konu Özeti:\n${clientTopic}`
-            );
-            const mailtoHref = `mailto:${targetEmail}?subject=${encodeURIComponent(emailSubject)}&body=${mailBody}`;
-
-            // Hazır WhatsApp Mesajı
-            const waText = encodeURIComponent(
-                `Merhaba, Bulut Hukuk & Danışmanlık web sitesi üzerinden görüşme talebi ilettim.\n\n` +
-                `• ${lawyerInfoLine}\n` +
-                `• Danışan: ${clientName}\n` +
-                `• Telefon: ${clientPhone}\n` +
-                `• E-Posta: ${clientEmail}\n` +
-                `• Hukuk Alanı: ${legalArea}\n` +
-                `• Görüşme Türü: ${meetingType}\n` +
-                `• Tarih & Saat: ${formattedDate} - ${selectedTime}\n` +
-                `• Konu Özeti: ${clientTopic}`
-            );
-
-            const actionsContainer = document.getElementById('confirmation-actions-container');
-            let whatsappHtml = '';
-
-            if (selectedLawyer === 'Av. Nisa Yaren Bulut') {
-                whatsappHtml = `
-                    <a href="https://wa.me/905347834625?text=${waText}" target="_blank" rel="noopener noreferrer"
-                       class="w-full py-3.5 px-5 rounded-xl bg-emerald-800 hover:bg-emerald-700 text-white text-xs sm:text-sm font-medium flex items-center justify-center gap-2 transition shadow-sm">
-                        <span>Av. Nisa Yaren Bulut'a WhatsApp ile İlet</span>
-                    </a>
-                `;
-            } else if (selectedLawyer === 'Av. Buğra Efe Bulut') {
-                whatsappHtml = `
-                    <a href="https://wa.me/905384541810?text=${waText}" target="_blank" rel="noopener noreferrer"
-                       class="w-full py-3.5 px-5 rounded-xl bg-emerald-800 hover:bg-emerald-700 text-white text-xs sm:text-sm font-medium flex items-center justify-center gap-2 transition shadow-sm">
-                        <span>Av. Buğra Efe Bulut'a WhatsApp ile İlet</span>
-                    </a>
-                `;
-            } else {
-                whatsappHtml = `
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                        <a href="https://wa.me/905347834625?text=${waText}" target="_blank" rel="noopener noreferrer"
-                           class="py-3 px-4 rounded-xl bg-emerald-800 hover:bg-emerald-700 text-white text-xs font-medium flex items-center justify-center gap-2 transition">
-                            <span>Av. Nisa Yaren Bulut (WhatsApp)</span>
-                        </a>
-                        <a href="https://wa.me/905384541810?text=${waText}" target="_blank" rel="noopener noreferrer"
-                           class="py-3 px-4 rounded-xl bg-emerald-800 hover:bg-emerald-700 text-white text-xs font-medium flex items-center justify-center gap-2 transition">
-                            <span>Av. Buğra Efe Bulut (WhatsApp)</span>
-                        </a>
-                    </div>
-                `;
-            }
-
-            actionsContainer.innerHTML = `
-                <a href="${mailtoHref}"
-                   class="w-full py-3.5 px-5 rounded-xl bg-obsidian-900 hover:bg-obsidian-800 text-ivory-50 text-xs sm:text-sm font-medium flex items-center justify-center gap-2 transition shadow-sm">
-                    <svg class="w-4 h-4 text-champagne-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                    </svg>
-                    <span>E-Posta Uygulaması ile Gönder (${targetEmail})</span>
-                </a>
-                ${whatsappHtml}
-            `;
+            badgeEl.textContent = 'E-Posta İletimi Tamamlandı';
+            noteEl.innerHTML = `Görüşme talebiniz <strong>${selectedLawyer}</strong> adına <strong>${targetEmail}</strong> adresine e-posta olarak başarıyla iletildi.`;
 
             bookingForm.classList.add('hidden');
             summaryCard.classList.remove('hidden');
@@ -1569,6 +1497,112 @@
 
             revealElements.forEach(el => observer.observe(el));
         }
+
+        // 10. Telefon numarası otomatik biçimlendirme: 0 (5XX) XXX XX XX
+        function formatPhoneTR(value) {
+            let d = value.replace(/\D/g, '');
+            if (d.startsWith('90') && d.length > 10) d = d.slice(2);
+            if (d.startsWith('0')) d = d.slice(1);
+            d = d.slice(0, 10);
+            if (!d.length) return '';
+            let out = '0 (' + d.slice(0, 3);
+            if (d.length >= 3) out += ')';
+            if (d.length > 3) out += ' ' + d.slice(3, 6);
+            if (d.length > 6) out += ' ' + d.slice(6, 8);
+            if (d.length > 8) out += ' ' + d.slice(8, 10);
+            return out;
+        }
+        const phoneInput = document.getElementById('client-phone');
+        if (phoneInput) {
+            phoneInput.addEventListener('input', (e) => {
+                const isDelete = e.inputType && e.inputType.startsWith('delete');
+                const digitsBefore = phoneInput.value.replace(/\D/g, '');
+                // Silerken "0 (5" gibi kalan biçim karakterlerinde takılmasın
+                phoneInput.value = isDelete && digitsBefore.length <= 1 ? '' : formatPhoneTR(phoneInput.value);
+            });
+            phoneInput.addEventListener('blur', () => {
+                phoneInput.setCustomValidity(/^0 \(5\d{2}\) \d{3} \d{2} \d{2}$/.test(phoneInput.value) ? '' : 'Lütfen telefon numarasını 0 (5XX) XXX XX XX biçiminde girin.');
+            });
+            phoneInput.addEventListener('input', () => phoneInput.setCustomValidity(''));
+        }
+
+        // 11. "Doğrudan Ara" butonları: numarayı panoya kopyala
+        async function copyPhoneNumber(text) {
+            try {
+                if (navigator.clipboard && window.isSecureContext) {
+                    await navigator.clipboard.writeText(text);
+                } else {
+                    throw new Error('fallback');
+                }
+            } catch (err) {
+                const ta = document.createElement('textarea');
+                ta.value = text;
+                ta.setAttribute('readonly', '');
+                ta.style.position = 'fixed';
+                ta.style.opacity = '0';
+                document.body.appendChild(ta);
+                ta.select();
+                try { document.execCommand('copy'); } catch (e2) {}
+                document.body.removeChild(ta);
+            }
+            showToast('Telefon numarası kopyalandı: ' + text);
+        }
+        document.querySelectorAll('[data-copy-phone]').forEach((btn) => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                copyPhoneNumber(btn.dataset.copyPhone);
+            });
+        });
+
+        // 12. Formdaki "WhatsApp ile İlet" butonları (seçilen avukata göre)
+        const WA_LAWYERS = {
+            'Av. Nisa Yaren Bulut': '905347834625',
+            'Av. Buğra Efe Bulut': '905384541810'
+        };
+        function renderWhatsAppButtons() {
+            const box = document.getElementById('wa-actions');
+            const checked = document.querySelector('input[name="selectedLawyer"]:checked');
+            if (!box || !checked) return;
+            const selected = checked.value;
+            const btnClass = 'w-full py-4 px-5 rounded-xl bg-emerald-800 hover:bg-emerald-700 text-white text-xs sm:text-sm font-medium flex items-center justify-center gap-2 transition shadow-md cursor-pointer';
+            const names = WA_LAWYERS[selected] ? [selected] : Object.keys(WA_LAWYERS);
+            box.innerHTML = names.map((name) => {
+                const label = WA_LAWYERS[selected] ? `${name}'a WhatsApp ile İlet` : `${name} (WhatsApp)`;
+                return `<button type="button" data-wa-lawyer="${name}" class="${btnClass}"><span>${label}</span></button>`;
+            }).join('');
+            box.className = WA_LAWYERS[selected] ? 'space-y-2.5' : 'grid grid-cols-1 sm:grid-cols-2 gap-2.5';
+        }
+        document.getElementById('wa-actions').addEventListener('click', (e) => {
+            const btn = e.target.closest('[data-wa-lawyer]');
+            if (!btn) return;
+            if (!bookingForm.reportValidity()) return;
+
+            const selectedLawyer = document.querySelector('input[name="selectedLawyer"]:checked').value;
+            const meetingType = document.querySelector('input[name="meetingType"]:checked').value;
+            const legalArea = document.getElementById('legal-area').value;
+            const rawDate = document.getElementById('appointment-date').value;
+            const selectedTime = document.getElementById('selected-time').value;
+            const clientName = document.getElementById('client-name').value.trim();
+            const clientPhone = document.getElementById('client-phone').value.trim();
+            const clientEmail = document.getElementById('client-email').value.trim();
+            const clientTopic = document.getElementById('client-topic').value.trim();
+            const formattedDate = rawDate ? rawDate.split('-').reverse().join('.') : rawDate;
+
+            const waText = encodeURIComponent(
+                `Merhaba, Bulut Hukuk & Danışmanlık web sitesi üzerinden görüşme talebi ilettim.\n\n` +
+                `• İlgili Avukat: ${selectedLawyer}\n` +
+                `• Danışan: ${clientName}\n` +
+                `• Telefon: ${clientPhone}\n` +
+                `• E-Posta: ${clientEmail}\n` +
+                `• Hukuk Alanı: ${legalArea}\n` +
+                `• Görüşme Türü: ${meetingType}\n` +
+                `• Tarih & Saat: ${formattedDate} - ${selectedTime}\n` +
+                `• Konu Özeti: ${clientTopic}`
+            );
+            window.open(`https://wa.me/${WA_LAWYERS[btn.dataset.waLawyer]}?text=${waText}`, '_blank', 'noopener');
+        });
+        document.querySelectorAll('input[name="selectedLawyer"]').forEach((r) => r.addEventListener('change', renderWhatsAppButtons));
+        renderWhatsAppButtons();
 
         document.addEventListener('DOMContentLoaded', () => {
             renderPracticeCards();
